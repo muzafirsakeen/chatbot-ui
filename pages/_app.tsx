@@ -7,7 +7,7 @@ import { Inter } from 'next/font/google';
 
 import '@/styles/globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+
 
 function App({ Component, pageProps }: AppProps<{}>) {
   const queryClient = new QueryClient();
@@ -21,5 +21,5 @@ function App({ Component, pageProps }: AppProps<{}>) {
     </div>
   );
 }
-
+xdxvbgcfngfnfdgbfmdfntf ye
 export default appWithTranslation(App);
